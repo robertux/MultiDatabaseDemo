@@ -18,6 +18,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 
+//https://stackoverflow.com/a/45665826/1138058
+
+//https://github.com/tonym2105/samples/tree/master/boot-multidb-sample
+
 @Configuration
 @EnableJpaRepositories(entityManagerFactoryRef = "rolesEntityManager", 
 		transactionManagerRef = "rolesTransactionManager", 
